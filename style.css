@@ -5,22 +5,7 @@ header{
 
 figure{
     border: 1px solid blue;
-}
-
-#aboutMe{
-    border: 1px solid green;
-    height: 30vh;
-}
-#work{
-    border: 1px solid orange;
-    height: 100vh;
-}
-#contact{
-    border: 1px solid black ;
-}
-#aboutMe, #work, #contact{
-    display: flex;
-    flex-wrap: wrap;
+    height: 10vh;
 }
 
 .section-title{
@@ -33,10 +18,33 @@ figure{
 .section-content{
     flex-basis: 80%;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.smaller-picture{
+    flex-basis: 50%;
+    border: 1px solid green;
+}
+
+#aboutMe{
+    border: 1px solid green;
+    height: 30vh;
+}
+#work{
+    border: 1px solid orange;
+    height: 150vh;
+}
+#contact{
+    border: 1px solid black;
+    height: 20vh;
+}
+#aboutMe, #work, #contact{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #first-picture{
     flex-basis: 100%;
     border: 1px solid violet;
-    height: 50%;
+    height: 60vh;
 }
