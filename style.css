@@ -18,7 +18,7 @@ figure{
 #contact{
     border: 1px solid black ;
 }
-#aboutMe{
+#aboutMe, #work, #contact{
     display: flex;
     flex-wrap: wrap;
 }
@@ -31,5 +31,12 @@ figure{
 }
 
 .section-content{
+    flex-basis: 80%;
+    display: flex;
+}
 
+#first-picture{
+    flex-basis: 100%;
+    border: 1px solid violet;
+    height: 50%;
 }
