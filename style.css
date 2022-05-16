@@ -2,6 +2,34 @@ header{
     border: 1px solid red;
     height: 10vh;
 }
+
 figure{
     border: 1px solid blue;
+}
+
+#aboutMe{
+    border: 1px solid green;
+    height: 30vh;
+}
+#work{
+    border: 1px solid orange;
+    height: 100vh;
+}
+#contact{
+    border: 1px solid black ;
+}
+#aboutMe{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-title{
+    flex-basis: 20%;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.section-content{
+
 }
