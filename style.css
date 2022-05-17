@@ -1,15 +1,16 @@
 header{
-    border: 1px solid red;
+    border: 1px solid black;
     height: 10vh;
 }
 
 figure{
-    border: 1px solid blue;
+    border: 1px solid black;
     height: 10vh;
 }
 
 .section-title{
     flex-basis: 20%;
+    display: flex;
     border-right-color: black;
     border-right-width: 1px;
     border-right-style: solid;
@@ -23,15 +24,16 @@ figure{
 
 .smaller-picture{
     flex-basis: 50%;
-    border: 1px solid green;
+    border: 1px solid black;
+    height: 30vh;
 }
 
 #aboutMe{
-    border: 1px solid green;
+    border: 1px solid black;
     height: 30vh;
 }
 #work{
-    border: 1px solid orange;
+    border: 1px solid black;
     height: 150vh;
 }
 #contact{
