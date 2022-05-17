@@ -1,0 +1,83 @@
+a {
+    text-decoration: none;
+}
+
+
+header {
+    border: 1px solid black;
+    height: 10vh;
+    background-color: aqua;
+}
+
+header ul a:hover {
+    color: black;
+}
+
+figure {
+    border: 1px solid black;
+    /* height: 10vh; */
+}
+
+.section {
+    border: 1px solid black;
+    /* height: 30vh; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 25px auto;
+    padding: 10px auto;
+}
+.section-title {
+    flex-basis: 20%;
+    display: flex;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.section-content {
+  flex: 0 0 77%;
+}
+
+/* About Section */
+
+.section .about-content {
+    padding: 10px;
+}
+
+.section .about-content p {
+    padding: 10px;
+}
+
+/* work section */
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.smaller-picture {
+    flex-basis: calc(50% -1em);
+    min-height: 150px;
+    max-height: 150px;
+    width:250px;
+    display: flex;
+    padding: 0 0 20px 0;
+    margin: 8px;
+    background-size: 150%;
+}
+
+
+.main-project {
+    flex-basis: 100%;
+    border: 1px solid violet;
+    min-height: 60vh;
+    background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422.jpg');
+    background-position: center;
+}
+
+.project-two{
+    background-image: url('https://cdn.vox-cdn.com/thumbor/A92qliFMWsBMYZ5clHS17xCb8x0=/0x0:5500x3671/1520x1013/filters:focal(2310x1396:3190x2276):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66563372/GettyImages_849177432.0.jpg');
+}
