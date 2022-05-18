@@ -1,8 +1,8 @@
-# Git, CSS, HTML: Code Factor>
+Advanced CSS/Portfolio
 
 ## Description
 
-This challenge was to code refactor the existing html to semantic elements, and put alt attribute in all the img elements and consolidate css.
+The challenge was to utilize wireframe, and CSS to create a portfolio.
 
 ## Table of Contents (Optional)
 
@@ -18,8 +18,7 @@ Open the project in your default browser
 
 ## Usage
 
-Test for first homework
-    ```
+Test
 
 ## Credits
 
@@ -40,7 +39,7 @@ Test for first homework
 
 ## Features
 
-If your project has a lot of features, list them here.
+
 
 ## How to Contribute
 
